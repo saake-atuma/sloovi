@@ -17,5 +17,5 @@ api.add_resource(login, '/login')
 api.add_resource(template,'/template')
 api.add_resource(template_1,'/template/<string:temp_id>')
 
-if __name__ == '__main__':
-    app.run(debug = True)
+# if __name__ == '__main__':
+#     app.run(debug = True)
