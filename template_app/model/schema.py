@@ -48,7 +48,6 @@ register_fields = {
     'email': fields.String,
 }
 
-
 user_details = reqparse.RequestParser()
 user_details.add_argument("first_name", type=str, help="Input first name of user", required=True)
 user_details.add_argument("last_name", type=str, help="Input last name of user", required=True)

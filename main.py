@@ -2,7 +2,7 @@ from flask import Flask
 from flask_restful import Api
 
 
-from app.controllers.api import (
+from template_app.controllers.api import (
     register,
     login,
     template,

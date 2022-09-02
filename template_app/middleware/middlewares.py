@@ -6,8 +6,8 @@ from flask_restful import abort
 from functools import wraps
 import json
 import hashlib
-from app.model.db_utils import db
-from app.model.schema import PyObjectId
+from template_app.model.db_utils import db
+from template_app.model.schema import PyObjectId
 from dotenv import load_dotenv
 import jwt
 import os
