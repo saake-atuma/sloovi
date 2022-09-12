@@ -52,7 +52,7 @@ class template(Resource):
     @marshal_with(resource_fields)
     def get(self):
         id = request.data['id']
-        return [doc for doc in db.templates.find({'id':id, 'unusable':{'$ne': True}})]
+        return [doc for doc in db.templates.find({'id':id})]
 
     @check_for_token
     def post(self):
